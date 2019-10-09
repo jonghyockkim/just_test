@@ -1,2 +1,3 @@
-import sys
-print(sys.argv)
+f = open('test.txt')
+lines = f.readlines()
+print(lines)
